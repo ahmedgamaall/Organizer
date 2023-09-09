@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "762732190485",
+    "project_id": "organizer-a885c",
+    "storage_bucket": "organizer-a885c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762732190485:android:4932cd98cf715beaa5671c",
+        "android_client_info": {
+          "package_name": "com.example.organizer_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGvibRWjlquE7DcrJ74UdQ3j6tdcIl_rM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
