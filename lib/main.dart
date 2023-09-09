@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:organizer_app/ui/home/home_screen.dart';
 import 'package:organizer_app/ui/splash/splash_screen.dart';
 import 'firebase_options.dart';
 
@@ -19,13 +20,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
+     debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
       home: const SplashScreen(),
+
+      routes:
+      {
+        '/home' : (context) => const HomeScreen(),
+      },
     );
   }
 }
